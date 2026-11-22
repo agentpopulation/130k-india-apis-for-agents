@@ -1,0 +1,1675 @@
+{
+  "repo": "india-api-endpoints",
+  "title": "India API endpoints",
+  "snapshot": "2026-11-15",
+  "snapshot_text": "15 Nov 2026",
+  "snapshot_time": "2026-11-15 09:06:22 IST",
+  "run": false,
+  "tested_total": 5129834,
+  "passed_total": 3726509,
+  "rows": 131136,
+  "unique_urls": 131136,
+  "services": 2126,
+  "country_codes": 1,
+  "single_country": "IN",
+  "agent_ready": 32471,
+  "range": {
+    "min": "2026-11-10",
+    "max": "2026-11-15",
+    "text": "10–15 Nov 2026"
+  },
+  "formats": {
+    "xml": 96498,
+    "json": 32471,
+    "csv": 1433,
+    "geojson": 734
+  },
+  "categories": {
+    "Science": 109513,
+    "Navigation & Geo/Maps": 6184,
+    "Government & Open Data": 4946,
+    "Finance": 3205,
+    "Health": 2057,
+    "Statistics & Economy": 1967,
+    "Weather & Climate": 1381,
+    "Environment": 566,
+    "Hydrology & Oceans": 551,
+    "Transport & Mobility": 337,
+    "Aviation": 307,
+    "Energy": 54,
+    "Hazards": 53,
+    "Maritime": 15
+  },
+  "tags": {
+    "no-key": 131136,
+    "science": 111288,
+    "xml": 96498,
+    "agent-ready": 32471,
+    "json": 32471,
+    "maps": 7440,
+    "health": 6515,
+    "government": 5679,
+    "open-data": 5540,
+    "finance": 3600,
+    "statistics": 2101,
+    "weather": 1847,
+    "environment": 1517,
+    "csv": 1433,
+    "oceans": 1115,
+    "economy": 954,
+    "geojson": 734,
+    "water": 551,
+    "rivers": 383,
+    "transit": 367,
+    "aviation": 355,
+    "floods": 266,
+    "forecast": 157,
+    "climate": 154,
+    "hazards": 150,
+    "energy": 104,
+    "ai-ml": 94,
+    "traffic": 59,
+    "maritime": 48,
+    "parking": 28,
+    "groundwater": 21,
+    "speech": 13,
+    "elevation": 12,
+    "air-quality": 11,
+    "earthquakes": 11,
+    "tides": 9,
+    "bike-share": 8,
+    "wildfire": 2,
+    "geocoding": 1
+  },
+  "dates": {
+    "2026-11-15": 129589,
+    "2026-11-14": 543,
+    "2026-11-13": 287,
+    "2026-11-12": 501,
+    "2026-11-11": 213,
+    "2026-11-10": 3
+  },
+  "countryNames": {
+    "IN": "India"
+  },
+  "leftOutCredential": 0,
+  "leftOutListing": 0,
+  "left_out_by_reason": {
+    "listing page, not a data call": 0,
+    "credential in the address": 0,
+    "private or local address": 411,
+    "email-like address": 0,
+    "survey form layer": 61,
+    "camera or image URL": 0,
+    "stored-login proxy": 0,
+    "class-exercise copy": 0,
+    "editable layer": 0,
+    "police stop records": 0,
+    "form answer layer": 8,
+    "needs an Indian network location": 117,
+    "leak check match": 0,
+    "coursework layer": 62,
+    "public input layer": 10,
+    "personal records layer": 1,
+    "service name like a class layer or a person": 0,
+    "social network server information": 360,
+    "another address of a left-out layer": 0,
+    "teaching organisation": 5,
+    "class account organisation": 82,
+    "class set layer": 6,
+    "university, college or school organisation": 251,
+    "repeated address": 0,
+    "address already in an earlier pack": 0,
+    "layer already in an earlier pack": 0,
+    "second address form of a layer": 0
+  },
+  "leftOutExcluded": 0,
+  "left_out_by_rule": [],
+  "sample_rows": 1000,
+  "focus_rows": 61752,
+  "arcgis_online_rows": 707,
+  "subcategories": {},
+  "agent_formats": [
+    "json"
+  ],
+  "largestServices": [
+    {
+      "service": "Razorpay",
+      "display": "Razorpay",
+      "host": "ifsc.razorpay.com",
+      "endpoints": 1000,
+      "agent_ready": 1000,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Mfapi",
+      "display": "Mfapi",
+      "host": "api.mfapi.in",
+      "endpoints": 997,
+      "agent_ready": 997,
+      "in_focus": 997,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Nrsc",
+      "display": "Nrsc",
+      "host": "bhuvan-vec2.nrsc.gov.in",
+      "endpoints": 994,
+      "agent_ready": 0,
+      "in_focus": 994,
+      "country_codes": 1,
+      "formats": [
+        "xml"
+      ]
+    },
+    {
+      "service": "Mosdac",
+      "display": "Mosdac",
+      "host": "mosdac.gov.in",
+      "endpoints": 993,
+      "agent_ready": 0,
+      "in_focus": 993,
+      "country_codes": 1,
+      "formats": [
+        "xml"
+      ]
+    },
+    {
+      "service": "Amfiindia",
+      "display": "Amfiindia",
+      "host": "portal.amfiindia.com",
+      "endpoints": 989,
+      "agent_ready": 0,
+      "in_focus": 989,
+      "country_codes": 1,
+      "formats": [
+        "csv"
+      ]
+    },
+    {
+      "service": "Nrsc",
+      "display": "Nrsc",
+      "host": "bhuvan-vec1.nrsc.gov.in",
+      "endpoints": 953,
+      "agent_ready": 439,
+      "in_focus": 953,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "xml",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Nrsc",
+      "display": "Nrsc",
+      "host": "bhuvan-vec3.nrsc.gov.in",
+      "endpoints": 951,
+      "agent_ready": 339,
+      "in_focus": 951,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "xml",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Mospi",
+      "display": "Mospi",
+      "host": "api.mospi.gov.in",
+      "endpoints": 664,
+      "agent_ready": 664,
+      "in_focus": 664,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Indiadataportal",
+      "display": "Indiadataportal",
+      "host": "ckandev.indiadataportal.com",
+      "endpoints": 572,
+      "agent_ready": 299,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "csv"
+      ]
+    },
+    {
+      "service": "Nwic",
+      "display": "Nwic",
+      "host": "nwdp.nwic.gov.in",
+      "endpoints": 554,
+      "agent_ready": 554,
+      "in_focus": 554,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Iudx",
+      "display": "Iudx",
+      "host": "cos.iudx.org.in",
+      "endpoints": 540,
+      "agent_ready": 540,
+      "in_focus": 540,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Censusindia",
+      "display": "Censusindia",
+      "host": "censusindia.gov.in",
+      "endpoints": 498,
+      "agent_ready": 498,
+      "in_focus": 498,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Webgis",
+      "display": "Webgis",
+      "host": "webgis.nic.in",
+      "endpoints": 367,
+      "agent_ready": 367,
+      "in_focus": 367,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Microdata",
+      "display": "Microdata",
+      "host": "microdata.gov.in",
+      "endpoints": 366,
+      "agent_ready": 366,
+      "in_focus": 366,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Postalpincode",
+      "display": "Postalpincode",
+      "host": "api.postalpincode.in",
+      "endpoints": 300,
+      "agent_ready": 300,
+      "in_focus": 300,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Bhubaneswarone",
+      "display": "Bhubaneswarone",
+      "host": "bhubaneswarone.in",
+      "endpoints": 290,
+      "agent_ready": 290,
+      "in_focus": 290,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "US Aviation Weather Center",
+      "display": "US Aviation Weather Center",
+      "host": "aviationweather.gov",
+      "endpoints": 261,
+      "agent_ready": 261,
+      "in_focus": 261,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Wwfindiawebgis",
+      "display": "Wwfindiawebgis",
+      "host": "wwfindiawebgis.in",
+      "endpoints": 250,
+      "agent_ready": 250,
+      "in_focus": 250,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Sbmurban",
+      "display": "Sbmurban",
+      "host": "prodgis.sbmurban.org",
+      "endpoints": 246,
+      "agent_ready": 246,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Imd",
+      "display": "Imd",
+      "host": "webgis.imd.gov.in",
+      "endpoints": 244,
+      "agent_ready": 6,
+      "in_focus": 244,
+      "country_codes": 1,
+      "formats": [
+        "geojson",
+        "xml",
+        "json"
+      ]
+    },
+    {
+      "service": "Midcindia",
+      "display": "Midcindia",
+      "host": "gis.midcindia.org",
+      "endpoints": 242,
+      "agent_ready": 242,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Ncscm",
+      "display": "Ncscm",
+      "host": "gisportal.ncscm.res.in",
+      "endpoints": 229,
+      "agent_ready": 229,
+      "in_focus": 229,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Canadian Urban Data Catalogue (CUDC)",
+      "display": "Canadian Urban Data Catalogue (CUDC)",
+      "host": "raw.githubusercontent.com",
+      "endpoints": 228,
+      "agent_ready": 59,
+      "in_focus": 105,
+      "country_codes": 1,
+      "formats": [
+        "csv",
+        "json",
+        "geojson",
+        "xml"
+      ]
+    },
+    {
+      "service": "Kdmc",
+      "display": "Kdmc",
+      "host": "maps.kdmc.gov.in",
+      "endpoints": 225,
+      "agent_ready": 225,
+      "in_focus": 225,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Mapservice",
+      "display": "Mapservice",
+      "host": "mapservice.gov.in",
+      "endpoints": 214,
+      "agent_ready": 214,
+      "in_focus": 214,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    }
+  ],
+  "bannerGroups": [
+    {
+      "label": "Science",
+      "n": 109513,
+      "agent": 16200
+    },
+    {
+      "label": "Navigation & Geo/Maps",
+      "n": 6184,
+      "agent": 3723
+    },
+    {
+      "label": "Government & Open Data",
+      "n": 4946,
+      "agent": 4589
+    },
+    {
+      "label": "Finance",
+      "n": 3205,
+      "agent": 2146
+    },
+    {
+      "label": "Health",
+      "n": 2057,
+      "agent": 2054
+    },
+    {
+      "label": "Statistics & Economy",
+      "n": 1967,
+      "agent": 1916
+    }
+  ],
+  "focus_text": "host ends with \".in\" OR host in (aviationweather.gov, api.open-meteo.com, air-quality-api.open-meteo.com, api.met.no, api.sunrise-sunset.org, ckan.himdataportal.com, ckan.meghalayadataportal.com) OR title matches /india|andhra|yamuna/i",
+  "buckets": [
+    {
+      "id": "agent",
+      "emoji": "🤖",
+      "name": "Agent tools",
+      "title": "Airport weather lookups for Indian airports",
+      "build": "Wrap a METAR or TAF URL as a get_airport_weather tool: pass the ICAO code (VIDP, VABB), return the latest report.",
+      "filter": {
+        "and": [
+          {
+            "tag": "agent-ready"
+          },
+          {
+            "urlMatches": "aviationweather\\.gov/api/data/(metar|taf)"
+          }
+        ]
+      },
+      "filter_text": "tags has agent-ready AND url matches /aviationweather\\.gov/api/data/(metar|taf)/i",
+      "fallback": false,
+      "notes": [],
+      "count": 261,
+      "services_matching": 1,
+      "country_codes_matching": 1,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://aviationweather.gov/api/data/metar?ids=VAAH&format=json",
+        "title": "METAR: Ahmadabad/Patel Intl (VAAH)",
+        "service": "US Aviation Weather Center",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and are tagged `agent-ready` (no key sent in the test call, JSON body, passed a data call). Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 1,
+        "services": [
+          {
+            "service": "US Aviation Weather Center",
+            "display": "US Aviation Weather Center",
+            "host": "aviationweather.gov",
+            "endpoints_in_bucket": 261,
+            "endpoints_in_pack": 261,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://aviationweather.gov/api/data/metar?ids=VAAH&format=json",
+            "sample_title": "METAR: Ahmadabad/Patel Intl (VAAH)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "app",
+      "emoji": "📱",
+      "name": "App features",
+      "title": "River, map and transport layers",
+      "build": "Show river readings, map layers and transport layers in an app.",
+      "filter": {
+        "or": [
+          {
+            "tag": "rivers"
+          },
+          {
+            "tag": "maps"
+          },
+          {
+            "tag": "transit"
+          }
+        ]
+      },
+      "filter_text": "tags has rivers OR tags has maps OR tags has transit",
+      "fallback": false,
+      "notes": [],
+      "count": 7936,
+      "services_matching": 290,
+      "country_codes_matching": 1,
+      "formats_matching": 4,
+      "example": {
+        "url": "https://bhuvan-vec1.nrsc.gov.in/bhuvan/wms?service=WMS&request=GetLegendGraphic&format=application/json&layer=nuis:AND_PB_UL10K",
+        "title": "ISRO NRSC Bhuvan: Bhuvan WMS layer legend JSON (National Urban Information System)",
+        "service": "Nrsc",
+        "last_tested": "2026-11-15"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 67,
+        "services": [
+          {
+            "service": "Nrsc",
+            "display": "Nrsc",
+            "host": "bhuvan-vec2.nrsc.gov.in",
+            "endpoints_in_bucket": 994,
+            "endpoints_in_pack": 994,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "xml"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://bhuvan-vec2.nrsc.gov.in/bhuvan/Anganwadi/Anganwadi/wms?service=WMS&version=1.3.0&request=GetCapabilities",
+            "sample_title": "NRSC Bhuvan vector services (vec2): NRSC Bhuvan vector services (vec2) WMS layer capabilities",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Nrsc",
+            "display": "Nrsc",
+            "host": "bhuvan-vec1.nrsc.gov.in",
+            "endpoints_in_bucket": 953,
+            "endpoints_in_pack": 953,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "json",
+              "xml",
+              "geojson"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://bhuvan-vec1.nrsc.gov.in/bhuvan/wms?service=WMS&request=GetLegendGraphic&format=application/json&layer=nuis:AND_PB_UL10K",
+            "sample_title": "ISRO NRSC Bhuvan: Bhuvan WMS layer legend JSON (National Urban Information System)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Nrsc",
+            "display": "Nrsc",
+            "host": "bhuvan-vec3.nrsc.gov.in",
+            "endpoints_in_bucket": 951,
+            "endpoints_in_pack": 951,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "json",
+              "xml",
+              "geojson"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://bhuvan-vec3.nrsc.gov.in/bhuvan/wms?service=WMS&request=GetLegendGraphic&format=application/json&layer=NHAI_FLOOD2:AgencyCurrent",
+            "sample_title": "ISRO NRSC Bhuvan: Bhuvan WMS layer legend JSON (NHAI_FLOOD2)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Webgis",
+            "display": "Webgis",
+            "host": "webgis.nic.in",
+            "endpoints_in_bucket": 367,
+            "endpoints_in_pack": 367,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://webgis.nic.in/publishing/rest/services/MyMapService/MapServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "MyMapService / World Continents",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Bhubaneswarone",
+            "display": "Bhubaneswarone",
+            "host": "bhubaneswarone.in",
+            "endpoints_in_bucket": 290,
+            "endpoints_in_pack": 290,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://bhubaneswarone.in/arcgis/rest/services/BhubaneswarOne/ASIMap/MapServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Bhubaneswar Smart City (Bhubaneswar One) GIS: Bhubaneswar Smart City (Bhubaneswar One) GIS ArcGIS layer query",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Wwfindiawebgis",
+            "display": "Wwfindiawebgis",
+            "host": "wwfindiawebgis.in",
+            "endpoints_in_bucket": 250,
+            "endpoints_in_pack": 250,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://wwfindiawebgis.in/gisserver/rest/services/Administrative_Boundary/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "WWF India WebGIS: WWF India WebGIS ArcGIS layer query",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Imd",
+            "display": "Imd",
+            "host": "webgis.imd.gov.in",
+            "endpoints_in_bucket": 244,
+            "endpoints_in_pack": 244,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "geojson",
+              "xml",
+              "json"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://webgis.imd.gov.in/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=EARTHQUAKE:faults&maxFeatures=5&outputFormat=application/json",
+            "sample_title": "India Meteorological Department WebGIS: India Meteorological Department WebGIS WFS features",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Ncscm",
+            "display": "Ncscm",
+            "host": "gisportal.ncscm.res.in",
+            "endpoints_in_bucket": 229,
+            "endpoints_in_pack": 229,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://gisportal.ncscm.res.in/server/rest/services/Beach/BeachG20_backup/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "National Centre for Sustainable Coastal Management GIS: National Centre for Sustainable Coastal Management GIS ArcGIS layer query",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grounding",
+      "emoji": "🧠",
+      "name": "Grounding and data pipelines",
+      "title": "Government and civic open-data records",
+      "build": "Load government open-data records on a schedule into your own store.",
+      "filter": {
+        "or": [
+          {
+            "tag": "open-data"
+          },
+          {
+            "tag": "government"
+          }
+        ]
+      },
+      "filter_text": "tags has open-data OR tags has government",
+      "fallback": false,
+      "notes": [],
+      "count": 6252,
+      "services_matching": 309,
+      "country_codes_matching": 1,
+      "formats_matching": 4,
+      "example": {
+        "url": "https://nwdp.nwic.gov.in/api/3/action/datastore_search?resource_id=003f10ed-7d78-4749-b5c9-700fa58045a0&limit=1",
+        "title": "River Water Level (Manual - Hourly),Tapi, Gujarat Surface Water and Ground Water Department",
+        "service": "Nwic",
+        "last_tested": "2026-11-13"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 198,
+        "services": [
+          {
+            "service": "Nwic",
+            "display": "Nwic",
+            "host": "nwdp.nwic.gov.in",
+            "endpoints_in_bucket": 554,
+            "endpoints_in_pack": 554,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://nwdp.nwic.gov.in/api/3/action/datastore_search?resource_id=003f10ed-7d78-4749-b5c9-700fa58045a0&limit=1",
+            "sample_title": "River Water Level (Manual - Hourly),Tapi, Gujarat Surface Water and Ground Water Department",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-13"
+          },
+          {
+            "service": "Iudx",
+            "display": "Iudx",
+            "host": "cos.iudx.org.in",
+            "endpoints_in_bucket": 540,
+            "endpoints_in_pack": 540,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://cos.iudx.org.in/iudx/cat/v1/item?id=00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+            "sample_title": "Indian Urban Data Exchange (IUDX) Catalogue: IUDX Catalogue API",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Postalpincode",
+            "display": "Postalpincode",
+            "host": "api.postalpincode.in",
+            "endpoints_in_bucket": 300,
+            "endpoints_in_pack": 300,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://api.postalpincode.in/pincode/110001",
+            "sample_title": "Postal PIN Code API (postalpincode.in): India Post PIN code lookup",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Kdmc",
+            "display": "Kdmc",
+            "host": "maps.kdmc.gov.in",
+            "endpoints_in_bucket": 225,
+            "endpoints_in_pack": 225,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://maps.kdmc.gov.in/agserver/rest/services/KDMC_BASEMAP_24_04_2025/FeatureServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Kalyan Dombivli Municipal Corporation GIS: Kalyan Dombivli Municipal Corporation GIS ArcGIS layer query",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Canadian Urban Data Catalogue (CUDC)",
+            "display": "Canadian Urban Data Catalogue (CUDC)",
+            "host": "raw.githubusercontent.com",
+            "endpoints_in_bucket": 184,
+            "endpoints_in_pack": 228,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "csv",
+              "geojson",
+              "json",
+              "xml"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://raw.githubusercontent.com/datameet/india-election-data/master/affidavits/adr-2009.csv",
+            "sample_title": "DataMeet: GitHub dataset datameet/india-election-data",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Justicehub",
+            "display": "Justicehub",
+            "host": "justicehub.in",
+            "endpoints_in_bucket": 108,
+            "endpoints_in_pack": 108,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "json",
+              "csv"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://justicehub.in/api/3/action/datastore_search?resource_id=01eef0f4-1923-49db-9617-2adc54e9f494&limit=1",
+            "sample_title": "Union budget data for the Centrally Sponsored Schemes - Department of Police (2016-17 to 2022-23)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-12"
+          },
+          {
+            "service": "Dngc",
+            "display": "Dngc",
+            "host": "dngc.ac.in",
+            "endpoints_in_bucket": 105,
+            "endpoints_in_pack": 105,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "xml"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://dngc.ac.in/journals/index.php/index/oai?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:ojs2.dngc.ac.in:article/100",
+            "sample_title": "Dera Natung Government College Research Journal: OAI-PMH record",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Opencity",
+            "display": "Opencity",
+            "host": "data.opencity.in",
+            "endpoints_in_bucket": 104,
+            "endpoints_in_pack": 104,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "json",
+              "csv"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://data.opencity.in/api/3/action/datastore_search?resource_id=04d6ef82-c090-48e4-81fb-c1440317a146&limit=1",
+            "sample_title": "Bengaluru Cycle Rides Data",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evals",
+      "emoji": "🧪",
+      "name": "Evals and testing",
+      "title": "Varied responses for tool-call tests",
+      "build": "Run your tool calls against a fixed set of URLs across formats and record which answer; last_tested is the baseline for your own re-tests.",
+      "filter": {
+        "whole": true
+      },
+      "filter_text": "the whole pack",
+      "fallback": false,
+      "notes": [],
+      "count": 131136,
+      "services_matching": 2126,
+      "country_codes_matching": 1,
+      "formats_matching": 4,
+      "example": {
+        "url": "https://api.mfapi.in/mf",
+        "title": "MFAPI.in (AMFI NAV data): Mutual fund list",
+        "service": "Mfapi",
+        "last_tested": "2026-11-15"
+      },
+      "recommended": {
+        "criteria": "Services in this pack that returned the most different formats, then the most endpoints that passed a data call, then by name: a mix of response shapes to test parsers and tool calls. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 1068,
+        "services": [
+          {
+            "service": "Canadian Urban Data Catalogue (CUDC)",
+            "display": "Canadian Urban Data Catalogue (CUDC)",
+            "host": "raw.githubusercontent.com",
+            "endpoints_in_bucket": 228,
+            "endpoints_in_pack": 228,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "csv",
+              "json",
+              "geojson",
+              "xml"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://raw.githubusercontent.com/datameet/india-election-data/master/affidavits/adr-2009.csv",
+            "sample_title": "DataMeet: GitHub dataset datameet/india-election-data",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Nrsc",
+            "display": "Nrsc",
+            "host": "bhuvan-vec1.nrsc.gov.in",
+            "endpoints_in_bucket": 953,
+            "endpoints_in_pack": 953,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "json",
+              "xml",
+              "geojson"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://bhuvan-vec1.nrsc.gov.in/bhuvan/wms?service=WMS&request=GetLegendGraphic&format=application/json&layer=nuis:AND_PB_UL10K",
+            "sample_title": "ISRO NRSC Bhuvan: Bhuvan WMS layer legend JSON (National Urban Information System)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Nrsc",
+            "display": "Nrsc",
+            "host": "bhuvan-vec3.nrsc.gov.in",
+            "endpoints_in_bucket": 951,
+            "endpoints_in_pack": 951,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "json",
+              "xml",
+              "geojson"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://bhuvan-vec3.nrsc.gov.in/bhuvan/wms?service=WMS&request=GetLegendGraphic&format=application/json&layer=NHAI_FLOOD2:AgencyCurrent",
+            "sample_title": "ISRO NRSC Bhuvan: Bhuvan WMS layer legend JSON (NHAI_FLOOD2)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Imd",
+            "display": "Imd",
+            "host": "webgis.imd.gov.in",
+            "endpoints_in_bucket": 244,
+            "endpoints_in_pack": 244,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "geojson",
+              "xml",
+              "json"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://webgis.imd.gov.in/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=EARTHQUAKE:faults&maxFeatures=5&outputFormat=application/json",
+            "sample_title": "India Meteorological Department WebGIS: India Meteorological Department WebGIS WFS features",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Incois",
+            "display": "Incois",
+            "host": "erddap.incois.gov.in",
+            "endpoints_in_bucket": 102,
+            "endpoints_in_pack": 102,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "xml",
+              "json",
+              "csv"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://erddap.incois.gov.in/erddap/categorize/cdm_data_type/index.json",
+            "sample_title": "Indian National Centre for Ocean Information Services (INCOIS): INCOIS ERDDAP",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Incois",
+            "display": "Incois",
+            "host": "samudra.incois.gov.in",
+            "endpoints_in_bucket": 52,
+            "endpoints_in_pack": 52,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "geojson",
+              "xml",
+              "json"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://samudra.incois.gov.in/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=it.geosolutions:SOI_STATE_BOUNDARY&maxFeatures=5&outputFormat=application/json",
+            "sample_title": "INCOIS Samudra GeoServer: INCOIS Samudra GeoServer WFS features",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "raptiffm.fmisc.up.gov.in",
+            "display": "raptiffm.fmisc.up.gov.in",
+            "host": "raptiffm.fmisc.up.gov.in",
+            "endpoints_in_bucket": 52,
+            "endpoints_in_pack": 52,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "geojson",
+              "json",
+              "xml"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://raptiffm.fmisc.up.gov.in//geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=raptinew:tbl_Rivers_show&maxFeatures=5&outputFormat=application/json",
+            "sample_title": "Uttar Pradesh Flood Management GIS: Uttar Pradesh Flood Management GIS WFS features",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Imd",
+            "display": "Imd",
+            "host": "reactjs.imd.gov.in",
+            "endpoints_in_bucket": 49,
+            "endpoints_in_pack": 49,
+            "country_codes": [
+              "IN"
+            ],
+            "formats": [
+              "geojson",
+              "xml",
+              "json"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://reactjs.imd.gov.in/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=imd:INDIA_NEW_REDUCED1&maxFeatures=5&outputFormat=application/json",
+            "sample_title": "India Meteorological Department GeoServer: India Meteorological Department GeoServer WFS features",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "q": "What is the latest METAR at New Delhi (VIDP)?",
+      "filter": "url contains \"metar?ids=VIDP\"",
+      "url": "https://aviationweather.gov/api/data/metar?ids=VIDP&format=json",
+      "title": "METAR: New Delhi/Gandhi Intl (VIDP)",
+      "service": "US Aviation Weather Center",
+      "last_tested": "2026-11-14",
+      "matching": 1
+    },
+    {
+      "q": "Does the TAF for Mumbai (VABB) forecast rain?",
+      "filter": "url contains \"taf?ids=VABB\"",
+      "url": "https://aviationweather.gov/api/data/taf?ids=VABB&format=json",
+      "title": "TAF forecast: Mumbai/Shivaji Intl (VABB)",
+      "service": "US Aviation Weather Center",
+      "last_tested": "2026-11-14",
+      "matching": 1
+    },
+    {
+      "q": "What do river water level telemetry readings show?",
+      "filter": "url contains \"nwdp.nwic.gov.in\" AND title matches /river water level \\(telemetry/i",
+      "url": "https://nwdp.nwic.gov.in/api/3/action/datastore_search?resource_id=01dcfdeb-8ab4-45ab-8fa6-f5a77f143a17&limit=1",
+      "title": "River Water Level (telemetry - Hourly), West Bengal Surface Water Department",
+      "service": "Nwic",
+      "last_tested": "2026-11-12",
+      "matching": 22
+    }
+  ],
+  "preview_focused": true,
+  "preview": [
+    {
+      "title": "MFAPI.in (AMFI NAV data): Mutual fund list",
+      "service": "Mfapi",
+      "country": "IN",
+      "category": "Finance",
+      "subcategory": "",
+      "format": "json",
+      "tags": "finance|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "api.mfapi.in",
+      "url": "https://api.mfapi.in/mf"
+    },
+    {
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre (MOSDAC), ISRO SAC: Meteorological & Oceanographic Satellite Data Archival Centre (MOSDAC), ISRO SAC THREDDS Data Server",
+      "service": "Mosdac",
+      "country": "IN",
+      "category": "Weather & Climate",
+      "subcategory": "",
+      "format": "xml",
+      "tags": "weather|oceans|science|no-key|xml",
+      "last_tested": "2026-11-15",
+      "host": "mosdac.gov.in",
+      "url": "https://mosdac.gov.in/thredds/catalog.xml"
+    },
+    {
+      "title": "Association of Mutual Funds in India (AMFI): AMFI NAV text files",
+      "service": "Amfiindia",
+      "country": "IN",
+      "category": "Finance",
+      "subcategory": "",
+      "format": "csv",
+      "tags": "finance|no-key|csv",
+      "last_tested": "2026-11-15",
+      "host": "portal.amfiindia.com",
+      "url": "https://portal.amfiindia.com/DownloadNAVHistoryReport_Po.aspx?frmdt=01-Apr-2024&todt=05-Apr-2024"
+    },
+    {
+      "title": "ISRO NRSC Bhuvan: Bhuvan WMS layer legend JSON (National Urban Information System)",
+      "service": "Nrsc",
+      "country": "IN",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "maps|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "bhuvan-vec1.nrsc.gov.in",
+      "url": "https://bhuvan-vec1.nrsc.gov.in/bhuvan/wms?service=WMS&request=GetLegendGraphic&format=application/json&layer=nuis:AND_PB_UL10K"
+    },
+    {
+      "title": "ISRO NRSC Bhuvan: Bhuvan WMS layer legend JSON (NHAI_FLOOD2)",
+      "service": "Nrsc",
+      "country": "IN",
+      "category": "Hydrology & Oceans",
+      "subcategory": "",
+      "format": "json",
+      "tags": "water|floods|maps|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "bhuvan-vec3.nrsc.gov.in",
+      "url": "https://bhuvan-vec3.nrsc.gov.in/bhuvan/wms?service=WMS&request=GetLegendGraphic&format=application/json&layer=NHAI_FLOOD2:AgencyCurrent"
+    }
+  ],
+  "limits": [
+    {
+      "id": "erddap-info",
+      "text": "17 rows are ERDDAP /info/ pages: they describe a dataset rather than return its values, so the series needs a second request."
+    },
+    {
+      "id": "record-count",
+      "text": "2,084 rows are map-layer queries with resultRecordCount set: the tested call asked for a few records; change the query to get the full layer."
+    },
+    {
+      "id": "limit-1",
+      "text": "930 rows carry limit=1: the tested call asked for one record; raise the limit or page through."
+    },
+    {
+      "id": "portal",
+      "text": "998 rows are open-data portal dataset records, which may return a dataset record with links rather than the table itself."
+    },
+    {
+      "id": "roots",
+      "text": "2 rows are service root addresses (the host alone or an API or version path such as /v1, with no query), which may describe the service rather than return data; the sample, examples and recommended lists use other rows first."
+    },
+    {
+      "id": "arcgis-online",
+      "text": "707 rows are layers on ArcGIS Online, where anyone can publish: some are class projects, tests or copies. Check the owner and the fields before you rely on one."
+    },
+    {
+      "id": "pack",
+      "text": "Country code IN is taken from the provider when it named one, otherwise from the domain ending, so it does not always mean the data is about India: some map layers and .in domains cover other places. Filter by title or service if you need India-only data."
+    },
+    {
+      "id": "quiet",
+      "text": "Stations and feeds can go quiet after their test date; re-test a URL before you rely on it."
+    },
+    {
+      "id": "not-in",
+      "text": "Not in this pack: endpoints that need a key or a POST, and URLs that did not pass."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 411 rows with a private or local address."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 61 ArcGIS Survey123 layers (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 8 ArcGIS layers that keep a form's default service name (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 117 rows that passed a data call only from a network location in India."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 62 ArcGIS class or coursework layers (lab, assignment, exam, quiz, lesson, exercise, tutorial and final-project layers, copies of class layers, layers named for a person or a person's home, and layers whose name ends in a person's name or holds a student number)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 10 ArcGIS layers that hold reports, comments, submissions or form responses sent in by the public."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 1 ArcGIS layer that is a record about named people (employee, patient, client or donor lists, home addresses, voter lists, sex offender and missing person layers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 360 rows of server information from Mastodon, PeerTube, Lemmy, Nostr and other social network servers (instance documents name the server's contact person)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 5 rows of ArcGIS Online organisations that are class accounts (25 layers or more, at least 50% of them class or coursework layers): their other layers are students' work too."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 82 rows of ArcGIS Online organisations that are class accounts (3 class sets or more in at least 20% of their rows, 10 class sets or more with no organisation name, or layers signed by students read by hand): their other layers are students' work too."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 6 rows of class sets: one map layer saved under 5 or more students' initials or names in one ArcGIS Online organisation, or in 4 or more students' own organisations."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 251 rows of the ArcGIS Online organisations of universities, colleges and schools (many of their layers are students' work)."
+    }
+  ],
+  "name": "130k-india-apis-for-agents",
+  "old_name": "india-api-endpoints",
+  "services_tested": {
+    "services": 2126,
+    "tested": 204948,
+    "passed": 180578,
+    "passed_pct": 88,
+    "line": "Across these services: 200k tested · 88% passed a keyless call",
+    "note": "Counted over the 2,126 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+  },
+  "services_file_rows": 2126,
+  "sample_mix": [
+    {
+      "source": "Mfapi (api.mfapi.in)",
+      "focus_rows": 997,
+      "sample_rows": 13
+    },
+    {
+      "source": "Nrsc (bhuvan-vec2.nrsc.gov.in)",
+      "focus_rows": 994,
+      "sample_rows": 13
+    },
+    {
+      "source": "Mosdac (mosdac.gov.in)",
+      "focus_rows": 993,
+      "sample_rows": 13
+    },
+    {
+      "source": "Amfiindia (portal.amfiindia.com)",
+      "focus_rows": 989,
+      "sample_rows": 13
+    },
+    {
+      "source": "Nrsc (bhuvan-vec1.nrsc.gov.in)",
+      "focus_rows": 953,
+      "sample_rows": 13
+    },
+    {
+      "source": "Nrsc (bhuvan-vec3.nrsc.gov.in)",
+      "focus_rows": 951,
+      "sample_rows": 13
+    },
+    {
+      "source": "Mospi (api.mospi.gov.in)",
+      "focus_rows": 664,
+      "sample_rows": 9
+    },
+    {
+      "source": "Nwic (nwdp.nwic.gov.in)",
+      "focus_rows": 554,
+      "sample_rows": 8
+    },
+    {
+      "source": "Iudx (cos.iudx.org.in)",
+      "focus_rows": 540,
+      "sample_rows": 8
+    },
+    {
+      "source": "Censusindia (censusindia.gov.in)",
+      "focus_rows": 498,
+      "sample_rows": 7
+    }
+  ],
+  "sample_focus_rows": 61752,
+  "sample_rule": "1,000 rows, or one third of the pack rounded down, whichever is smaller",
+  "files": [
+    {
+      "name": "data/India_API_Services_AgentPopulation.csv",
+      "rows": 2126,
+      "bytes": 74548,
+      "sha256": "ac7b8bbcab8a367a2230636cc6521b6978d532a55c721a1d4f2f8eceebbc2ccb"
+    },
+    {
+      "name": "data/India_API_Endpoints_AgentPopulation_Sample.csv",
+      "rows": 1000,
+      "bytes": 243038,
+      "sha256": "62859926ec696d4cbd9aa701a4f7fa4c87652ed8d9c66f69809220b62fa407ba"
+    },
+    {
+      "name": "data/India_API_Endpoints_AgentPopulation_Sample.json",
+      "rows": 1000,
+      "bytes": 428979,
+      "sha256": "712a61b961362facd361a68ab8d249733b14786cb60b1f8c347ca3b6e02388f5"
+    }
+  ],
+  "release_asset": {
+    "name": "India_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+    "rows": 131136,
+    "bytes": 2168467,
+    "raw_bytes": 31646188,
+    "sha256": "d14c7fca07c11c49454999956d3ca22798619a5cf00f86e1b8fd7c7791aa9d23",
+    "url": "https://github.com/agentpopulation/130k-india-apis-for-agents/releases/latest/download/India_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz"
+  },
+  "release_tag": "snapshot-2026-11-15",
+  "overlaps": [
+    {
+      "repo": "weather-api-endpoints",
+      "name": "170k-weather-apis-for-agents",
+      "title": "Weather API endpoints",
+      "shared": 1857
+    },
+    {
+      "repo": "transit-api-endpoints",
+      "name": "240k-transit-apis-for-agents",
+      "title": "Transit API endpoints",
+      "shared": 404
+    },
+    {
+      "repo": "water-api-endpoints",
+      "name": "260k-water-apis-for-agents",
+      "title": "Rivers and water API endpoints",
+      "shared": 1795
+    },
+    {
+      "repo": "finance-economy-api-endpoints",
+      "name": "120k-finance-economy-apis-for-agents",
+      "title": "Finance and economy API endpoints",
+      "shared": 4549
+    },
+    {
+      "repo": "government-open-data-api-endpoints",
+      "name": "1.2m-government-open-data-apis",
+      "title": "Government open data API endpoints",
+      "shared": 4947
+    },
+    {
+      "repo": "statistics-api-endpoints",
+      "name": "270k-statistics-apis-for-agents",
+      "title": "Statistics and census API endpoints",
+      "shared": 1967
+    },
+    {
+      "repo": "oceans-api-endpoints",
+      "name": "84k-oceans-apis-for-agents",
+      "title": "Ocean and marine API endpoints",
+      "shared": 1115
+    },
+    {
+      "repo": "maritime-api-endpoints",
+      "name": "22k-maritime-apis-for-agents",
+      "title": "Maritime API endpoints",
+      "shared": 15
+    },
+    {
+      "repo": "environment-api-endpoints",
+      "name": "160k-environment-apis-for-agents",
+      "title": "Environment API endpoints",
+      "shared": 568
+    },
+    {
+      "repo": "air-quality-api-endpoints",
+      "name": "19k-air-quality-apis-for-agents",
+      "title": "Air quality API endpoints",
+      "shared": 11
+    },
+    {
+      "repo": "maps-gis-api-endpoints",
+      "name": "350k-maps-gis-apis-for-agents",
+      "title": "Maps and GIS API endpoints",
+      "shared": 6167
+    },
+    {
+      "repo": "agent-ready-api-endpoints",
+      "name": "2.2m-agent-ready-apis",
+      "title": "Agent-ready API endpoints",
+      "shared": 32406
+    },
+    {
+      "repo": "health-api-endpoints",
+      "name": "84k-health-apis-for-agents",
+      "title": "Health API endpoints",
+      "shared": 2057
+    },
+    {
+      "repo": "science-api-endpoints",
+      "name": "380k-science-apis-for-agents",
+      "title": "Science API endpoints",
+      "shared": 109513
+    },
+    {
+      "repo": "hazards-api-endpoints",
+      "name": "40k-hazards-apis-for-agents",
+      "title": "Hazards and alerts API endpoints",
+      "shared": 53
+    },
+    {
+      "repo": "wildfire-api-endpoints",
+      "name": "4.9k-wildfire-apis-for-agents",
+      "title": "Wildfire API endpoints",
+      "shared": 2
+    },
+    {
+      "repo": "energy-api-endpoints",
+      "name": "67k-energy-apis-for-agents",
+      "title": "Energy API endpoints",
+      "shared": 54
+    },
+    {
+      "repo": "aviation-api-endpoints",
+      "name": "23k-aviation-apis-for-agents",
+      "title": "Aviation API endpoints",
+      "shared": 307
+    },
+    {
+      "repo": "traffic-api-endpoints",
+      "name": "22k-traffic-apis-for-agents",
+      "title": "Traffic and roadworks API endpoints",
+      "shared": 59
+    },
+    {
+      "repo": "parking-api-endpoints",
+      "name": "10k-parking-apis-for-agents",
+      "title": "Parking API endpoints",
+      "shared": 28
+    },
+    {
+      "repo": "earthquake-api-endpoints",
+      "name": "7.8k-earthquake-apis-for-agents",
+      "title": "Earthquake API endpoints",
+      "shared": 11
+    },
+    {
+      "repo": "volcano-tsunami-api-endpoints",
+      "name": "4.2k-volcano-tsunami-apis-for-agents",
+      "title": "Volcano and tsunami API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "bike-share-api-endpoints",
+      "name": "17k-bike-share-apis-for-agents",
+      "title": "Bike-share API endpoints",
+      "shared": 8
+    },
+    {
+      "repo": "united-states-api-endpoints",
+      "name": "750k-united-states-apis-for-agents",
+      "title": "United States API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "united-kingdom-api-endpoints",
+      "name": "52k-united-kingdom-apis-for-agents",
+      "title": "United Kingdom API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "france-api-endpoints",
+      "name": "47k-france-apis-for-agents",
+      "title": "France API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "spain-api-endpoints",
+      "name": "8.1k-spain-apis-for-agents",
+      "title": "Spain API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "indonesia-api-endpoints",
+      "name": "22k-indonesia-apis-for-agents",
+      "title": "Indonesia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "canada-api-endpoints",
+      "name": "19k-canada-apis-for-agents",
+      "title": "Canada API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "netherlands-api-endpoints",
+      "name": "17k-netherlands-apis-for-agents",
+      "title": "Netherlands API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "germany-api-endpoints",
+      "name": "14k-germany-apis-for-agents",
+      "title": "Germany API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "norway-api-endpoints",
+      "name": "12k-norway-apis-for-agents",
+      "title": "Norway API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "brazil-api-endpoints",
+      "name": "14k-brazil-apis-for-agents",
+      "title": "Brazil API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "japan-api-endpoints",
+      "name": "9.8k-japan-apis-for-agents",
+      "title": "Japan API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "australia-api-endpoints",
+      "name": "12k-australia-apis-for-agents",
+      "title": "Australia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "colombia-api-endpoints",
+      "name": "10k-colombia-apis-for-agents",
+      "title": "Colombia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "czechia-api-endpoints",
+      "name": "6.3k-czechia-apis-for-agents",
+      "title": "Czechia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "poland-api-endpoints",
+      "name": "6.3k-poland-apis-for-agents",
+      "title": "Poland API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "taiwan-api-endpoints",
+      "name": "4.2k-taiwan-apis-for-agents",
+      "title": "Taiwan API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "italy-api-endpoints",
+      "name": "7.3k-italy-apis-for-agents",
+      "title": "Italy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "new-zealand-api-endpoints",
+      "name": "6.1k-new-zealand-apis-for-agents",
+      "title": "New Zealand API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "nordic-api-endpoints",
+      "name": "13k-nordic-apis-for-agents",
+      "title": "Nordic API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "more-europe-api-endpoints",
+      "name": "24k-more-europe-apis-for-agents",
+      "title": "More Europe API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "latin-america-caribbean-api-endpoints",
+      "name": "20k-latin-america-caribbean-apis-for-agents",
+      "title": "Latin America and Caribbean API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "europe-region-arcgis-api-endpoints",
+      "name": "59k-europe-region-arcgis-apis-for-agents",
+      "title": "Europe-region ArcGIS API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "middle-east-africa-api-endpoints",
+      "name": "6.7k-middle-east-africa-apis-for-agents",
+      "title": "Middle East and Africa API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "county-and-city-gis-api-endpoints",
+      "name": "160k-county-and-city-gis-apis-for-agents",
+      "title": "County and city GIS API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "public-agency-gis-api-endpoints",
+      "name": "47k-public-agency-gis-apis-for-agents",
+      "title": "Public agency GIS API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "arcgis-server-api-endpoints",
+      "name": "25k-arcgis-server-apis-for-agents",
+      "title": "ArcGIS Server API endpoints",
+      "shared": 0
+    }
+  ],
+  "pack_count": 50,
+  "description": "131,136 India API endpoints that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "live_name": "130k-india-apis-for-agents",
+  "readme_ap_share": 0.1,
+  "country_counts": {
+    "IN": 131136
+  }
+}
